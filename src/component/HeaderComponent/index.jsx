@@ -5,7 +5,7 @@ import "./style.css";
 const HeaderComponent = () => {
   return (
     <>
-      <div className="container header">
+      <div className="container-fulid header">
         <div className="col1">
           <div className="row ">
             <div className="col-4">

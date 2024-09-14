@@ -3,7 +3,7 @@ import CarouselComponent from "./CarouselComponent";
 import CatalogComponent from "./CatalogComponent";
 import PhoneComponent from "./PhoneComonent";
 import CardComponent from "../CardComponent";
-import BigBanner from "./../../image/BigBanner.png";
+import BigBanner from "../../image/BigBanner.png";
 import "bootstrap/dist/css/bootstrap.css";
 
 const BodyComponent = () => {

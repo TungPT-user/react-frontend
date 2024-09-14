@@ -1,7 +1,27 @@
-.nav-a a {
+.nav-button button {
   display: inline;
+  border: 0.001px solid #f1f2f4;
+  background-color: #ffffff;
   margin: 10px;
-  width: 140px;
-  height: 33px;
-  border: 0.001px solid black;
+  width: 150px;
+  height: 30px;
+  font-weight: 500;
+}
+
+.nav-a button {
+  display: inline;
+  width: auto;
+  height: 30px;
+  margin: 5px;
+  background-color: #f1f2f4;
+  border: 0.001px solid #f1f2f4;
+  border-radius: 10px;
+}
+
+.box-news {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 0.001px solid #f1f2f4;
+  margin-top: 60px;
 }

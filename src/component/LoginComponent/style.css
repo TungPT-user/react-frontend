@@ -1,0 +1,47 @@
+.login-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qmk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 200px;
+  margin-bottom: 20px;
+}
+
+.button-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-login {
+  width: 650px;
+  height: 35px;
+}
+
+.rotate-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bonus-policy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
