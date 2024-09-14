@@ -1,0 +1,22 @@
+{
+  "iphones": [
+    {
+      "id": 1,
+      "name": "iPhone 12",
+      "color": "Blue",
+      "price": 799
+    },
+    {
+      "id": 2,
+      "name": "iPhone 12 Pro",
+      "color": "Gold",
+      "price": 999
+    },
+    {
+      "id": 3,
+      "name": "iPhone SE",
+      "color": "Black",
+      "price": 399
+    }
+  ]
+}

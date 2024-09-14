@@ -1,0 +1,9 @@
+.text a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid #f3f4f8;
+  background-color: #f3f4f6;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}

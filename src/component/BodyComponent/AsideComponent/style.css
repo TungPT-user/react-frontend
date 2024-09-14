@@ -1,0 +1,39 @@
+.box {
+  border: 0px solid black;
+  width: 220px;
+  height: 35px;
+}
+
+.box-aside {
+  box-shadow: 1px 1px 1px 1px grey;
+  width: 220px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.box:hover {
+  color: red;
+}
+
+.hidden-element-phone {
+  display: none;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 1px 1px grey;
+  width: 65%;
+  position: absolute;
+  left: 330px;
+  height: 400px;
+  border-radius: 8px;
+}
+.content-text {
+  font-weight: 900;
+}
+
+.list1:hover + .hidden-element-phone,
+.list1:focus + .hidden-element-phone,
+.list1:active + .hidden-element-phone {
+  display: block;
+}

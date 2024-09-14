@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Điện thoại"
+    },
+    {
+      "id": 2,
+      "name": "Laptop"
+    },
+    {
+      "id": 3,
+      "name": "Âm thanh"
+    },
+    {
+      "id": 4,
+      "name": "Đồng hồ"
+    },
+    {
+      "id": 5,
+      "name": "Đồ gia dụng"
+    },
+    {
+      "id": 6,
+      "name": "Phụ kiện"
+    },
+    {
+      "id": 7,
+      "name": "PC"
+    },
+    {
+      "id": 8,
+      "name": "Màn hình"
+    },
+    {
+      "id": 9,
+      "name": "Máy in"
+    },
+    {
+      "id": 10,
+      "name": "TV"
+    }
+  ]
+}

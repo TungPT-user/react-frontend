@@ -1,0 +1,7 @@
+.nav-a a {
+  display: inline;
+  margin: 10px;
+  width: 140px;
+  height: 33px;
+  border: 0.001px solid black;
+}
