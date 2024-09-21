@@ -5,31 +5,45 @@ import "./style.css";
 const HeaderComponent = () => {
   return (
     <>
-      <div className="container-fulid header">
-        <div className="col1">
-          <div className="row ">
-            <div className="col-4">
+      <div className="header">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-md-4 col-sm-12">
               <a href="#" className="logo">
                 <img src={logo} />
               </a>
               <button className=" btn-menu">Danh mục</button>
               <span>
-                <button className=" btn-locate">Xem giá tại Hà Nội</button>
+                <button className=" btn-locate">
+                  <span>Xem giá tại Hà Nội</span>
+                </button>
               </span>
             </div>
-            <div className="col-4">
+            <div className="col-md-4 col-sm-12">
               <input
                 className="input-header"
                 type="text"
                 placeholder="Bạn cần tìm gì?"
               />
             </div>
-            <div className="col-4">
-              <button className=" btn-facetime">Gọi mua hàng</button>
-              <button className=" btn-address">Cửa hàng gần bạn</button>
-              <button className=" btn-follow">Tra cứu đơn hàng</button>
-              <button className=" btn-cart">Giỏ hàng</button>
-              <button className=" btn-login">Đăng nhập</button>
+            <div className="col-md-4 col-sm-12">
+              <div class="d-flex flex-row justify-content-around">
+                <div className="flex-grow-3">
+                  <button className=" btn-facetime ">Gọi mua hàng</button>
+                </div>
+                <div className="flex-grow-3">
+                  <button className=" btn-address">Cửa hàng gần bạn</button>
+                </div>
+                <div className="flex-grow-3">
+                  <button className=" btn-follow">Tra cứu đơn hàng</button>
+                </div>
+                <div className="flex-grow-3">
+                  <button className=" btn-cart">Giỏ hàng</button>
+                </div>
+                <div className="flex-grow-3">
+                  <button className=" btn-login">Đăng nhập</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>

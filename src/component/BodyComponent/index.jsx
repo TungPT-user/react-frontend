@@ -4,7 +4,9 @@ import CatalogComponent from "./CatalogComponent";
 import PhoneComponent from "./PhoneComonent";
 import CardComponent from "../CardComponent";
 import BigBanner from "../../image/BigBanner.png";
+import CarouselHotSale from "../HotsaleComponent/CarouselHotSale";
 import "bootstrap/dist/css/bootstrap.css";
+import HotSaleComponent from "../HotsaleComponent";
 
 const BodyComponent = () => {
   return (
@@ -29,6 +31,8 @@ const BodyComponent = () => {
         >
           <img src={BigBanner} alt="" />
         </div>
+        <br />
+        <HotSaleComponent></HotSaleComponent>
         <br />
         <PhoneComponent></PhoneComponent>
       </div>

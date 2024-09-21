@@ -6,7 +6,7 @@ import "./style.css";
 const RegisterComponent = () => {
   return (
     <>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <HeaderComponent></HeaderComponent>
         </div>
@@ -41,7 +41,7 @@ const RegisterComponent = () => {
         <hr
           style={{
             width: "310px",
-            marginLeft: "483px",
+            marginLeft: "600px",
           }}
         />
         <br />
@@ -57,7 +57,7 @@ const RegisterComponent = () => {
                 borderLeft: "0px solid #F4F6F7",
                 borderBottom: "1px solid #F4F6F7",
               }}
-              placeholder="Nhập số điện thoại"
+              placeholder="Nhập hộ và tên"
             />
             <br />
             <br />
@@ -72,43 +72,122 @@ const RegisterComponent = () => {
                 borderLeft: "0px solid #F4F6F7",
                 borderBottom: "1px solid #F4F6F7",
               }}
-              placeholder="Nhập số mật khẩu"
+              placeholder="Nhập số điện thoại"
+            />
+
+            <br />
+            <br />
+
+            <input
+              type="password"
+              style={{
+                width: "700px",
+                height: "35px",
+                borderTop: "0px solid #F4F6F7",
+                borderRight: "0px solid #F4F6F7",
+                borderLeft: "0px solid #F4F6F7",
+                borderBottom: "1px solid #F4F6F7",
+              }}
+              placeholder="Nhập email (không bắt buộc)"
+            />
+
+            <br />
+            <br />
+
+            <input
+              type="password"
+              style={{
+                width: "700px",
+                height: "35px",
+                borderTop: "0px solid #F4F6F7",
+                borderRight: "0px solid #F4F6F7",
+                borderLeft: "0px solid #F4F6F7",
+                borderBottom: "1px solid #F4F6F7",
+              }}
+              placeholder="Nhập ngày sinh"
+            />
+
+            <br />
+            <br />
+
+            <input
+              type="password"
+              style={{
+                width: "700px",
+                height: "35px",
+                borderTop: "0px solid #F4F6F7",
+                borderRight: "0px solid #F4F6F7",
+                borderLeft: "0px solid #F4F6F7",
+                borderBottom: "1px solid #F4F6F7",
+              }}
+              placeholder="Nhập mật khẩu"
+            />
+
+            <br />
+            <br />
+
+            <input
+              type="password"
+              style={{
+                width: "700px",
+                height: "35px",
+                borderTop: "0px solid #F4F6F7",
+                borderRight: "0px solid #F4F6F7",
+                borderLeft: "0px solid #F4F6F7",
+                borderBottom: "1px solid #F4F6F7",
+              }}
+              placeholder="Nhập lại mật khẩu"
             />
           </div>
         </div>
         <div className="row">
-          <div className="qmk">
-            <a href="#">Quên mật khẩu?</a>
+          <div className="list-input">
+            <div className="col-6">
+              <ul>
+                <li>
+                  <input
+                    type="checkbox"
+                    style={{ backgroundColor: "red" }}
+                    className="input-check"
+                  ></input>
+                  <p>Đăng ký nhận bản tin khuyến mãi từ CellphoneS</p>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    style={{ backgroundColor: "red" }}
+                    className="input-check"
+                  ></input>
+                  <p>Tôi đồng ý với cách điều khoản bảo mật cá nhân</p>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    style={{ backgroundColor: "red" }}
+                    className="input-check"
+                  ></input>
+                  <p>
+                    Tôi là Học sinh - sinh viên (nhận thêm ưu đãi 500k/ sản
+                    phẩm)
+                  </p>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <div className="row">
           <div className="button-login">
-            <button className="btn-login">Đăng nhập</button>
+            <button className="btn-login">Đăng ký</button>
           </div>
         </div>
         <div className="row">
           <div className="rotate-register">
             <p>
-              Bạn chưa có tài khoản?
+              Bạn đã có tài khoản?
               <a href="#" style={{ color: "red" }}>
-                Đăng ký ngay
+                Đăng nhập ngay
               </a>
             </p>
-          </div>
-        </div>
-        <div className="row">
-          <div className="bonus-policy">
-            <a href="#">
-              <h5
-                style={{
-                  color: "red",
-                  textDecoration: "underline",
-                  textDecorationColor: "red",
-                }}
-              >
-                Xem chính sách ưu đãi Smember
-              </h5>
-            </a>
           </div>
         </div>
       </div>

@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .btn-menu {
   border-radius: 10px;
   background-color: #df3346;
@@ -19,9 +25,11 @@
   color: white;
   margin-right: 5px;
   margin-top: 5px;
-  width: 90px;
-  height: 50px;
+  height: 40px;
   word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .logo {
@@ -37,10 +45,10 @@
 .header {
   width: 100%;
   background-color: #d70018;
+  overflow: hidden;
 }
 
 .input-header {
-  margin-top: 20px;
   margin-left: 50px;
   width: 300px;
   height: 32px;
@@ -50,55 +58,12 @@
   justify-content: center;
 }
 
-.btn-facetime {
-  border-radius: 10px;
-  width: 90px;
-  background-color: #df3346;
-  justify-content: center;
-  height: 40px;
-  border: none;
-  color: white;
-  margin-right: 5px;
-  margin-top: 5px;
-  word-break: keep-all;
-}
-
-.btn-address {
-  border-radius: 10px;
-  width: 90px;
-  background-color: #df3346;
-  justify-content: center;
-  height: 40px;
-  border: none;
-  color: white;
-  margin-right: 5px;
-  margin-top: 5px;
-  word-break: break-all;
-}
-.btn-follow {
-  border-radius: 10px;
-  width: 90px;
-  background-color: #df3346;
-  justify-content: center;
-  height: 40px;
-  border: none;
-  color: white;
-  margin-right: 5px;
-  margin-top: 5px;
-  word-break: break-all;
-}
-.btn-cart {
-  border-radius: 10px;
-  width: 90px;
-  background-color: #df3346;
-  justify-content: center;
-  height: 40px;
-  border: none;
-  color: white;
-  margin-right: 5px;
-  margin-top: 5px;
-  word-break: break-all;
-}
+.btn-facetime,
+.btn-menu,
+.btn-locate,
+.btn-address,
+.btn-follow,
+.btn-cart,
 .btn-login {
   border-radius: 10px;
   width: 90px;
@@ -109,5 +74,12 @@
   color: white;
   margin-right: 5px;
   margin-top: 5px;
-  word-break: break-all;
+  word-break: keep-all;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container-fluid {
+  padding: 0;
 }

@@ -11,15 +11,6 @@
   align-items: center;
 }
 
-.qmk {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-left: 200px;
-  margin-bottom: 20px;
-}
-
 .button-login {
   display: flex;
   justify-content: center;
@@ -44,4 +35,22 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+}
+
+.input-check,
+p {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.list-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-check {
+  margin-right: 20px;
+  margin-left: -25px;
+  margin-top: 10px;
 }

@@ -1,0 +1,16 @@
+.box-hotsale {
+  background-color: #f83f5e;
+  border-radius: 5%;
+}
+
+.header-hotsale {
+  color: aliceblue;
+  padding-left: 30px;
+}
+.carousel-hotsale {
+  background-color: azure;
+  border-radius: 5%;
+  width: 90%;
+  height: 85%;
+  margin-left: 60px;
+}
