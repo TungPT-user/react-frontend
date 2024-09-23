@@ -7,13 +7,12 @@ import { useContext } from "react";
 import CardComponent from "../../CardComponent";
 import "../CarouselHotSale/style.css";
 const CarouselHotSale = () => {
-  const productCtx = useContext(ProductContext);
+  const items = Array.from({ length: 5 }, (_, index) => index);
   return (
     <Carousel>
-      {productCtx.products.map((_, rowIndex) => (
-        <Carousel.Item>
-          <Row style={{ marginLeft: "20px", marginBottom: "50px" }}>
-            {/* <Col
+      <Carousel.Item>
+        <Row style={{ marginLeft: "20px", marginBottom: "50px" }}>
+          {/* <Col
               xs={2}
               md={2}
               style={{ marginLeft: "25px" }}
@@ -22,17 +21,9 @@ const CarouselHotSale = () => {
               <CardComponent />
             </Col> */}
 
-            <Col
-              xs={2}
-              md={2}
-              style={{ marginLeft: "25px" }}
-              className="custom-card d-flex justify-content-center align-items-center"
-            >
-              <CardComponent />
-            </Col>
-          </Row>
-        </Carousel.Item>
-      ))}
+          <CardComponent />
+        </Row>
+      </Carousel.Item>
     </Carousel>
   );
 };

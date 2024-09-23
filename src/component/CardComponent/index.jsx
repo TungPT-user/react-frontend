@@ -1,30 +1,30 @@
 import { useContext } from "react";
 import { ProductContext } from "../ProductsContext";
-import { Link } from "react-router-dom";
+import { Col } from "react-bootstrap";
 import "./style.css";
 // /image/Mac.jpg
-const CardComponent = () => {
+const CardComponent = ({ limit }) => {
   const productCtx = useContext(ProductContext);
-  console.log(productCtx);
 
   return (
     <>
-      <ul>
-        {productCtx.products.map((product) => (
-          <li>
-            {productCtx.products.map((product) => (
-              <div class="product-card">
-                <img src={product.img1} alt="" />
-                <h4>{product.name}</h4>
-                <div>
-                  <span>{product.price}</span>
-                  <button>+</button>
-                </div>
-              </div>
-            ))}
+      {productCtx.products.map((product) => (
+        <Col
+          xs={2}
+          md={2}
+          style={{ marginLeft: "25px" }}
+          className="product-list d-flex justify-content-center align-items-center"
+        >
+          <li key={product.id} className="product-card">
+            <img src={product.img1} alt="" />
+            <h4>{product.name}</h4>
+            <div className="product-info">
+              <span>{product.price}</span>
+              <button>+</button>
+            </div>
           </li>
-        ))}
-      </ul>
+        </Col>
+      ))}
     </>
   );
 };
