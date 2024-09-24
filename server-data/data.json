@@ -191,6 +191,41 @@
       "name": "Elite 85h",
       "price": "$249",
       "description": "The Jabra Elite 85h headphones offer great sound quality, long battery life, and excellent noise cancellation."
+    },
+    {
+      "id": 6,
+      "brand": "Beyerdynamic",
+      "name": "DT 990 Pro",
+      "price": "$179",
+      "description": "The Beyerdynamic DT 990 Pro headphones are known for their open-back design and detailed sound reproduction."
+    },
+    {
+      "id": 7,
+      "brand": "AKG",
+      "name": "K371",
+      "price": "$149",
+      "description": "The AKG K371 headphones provide accurate sound reproduction and comfortable fit for extended listening sessions."
+    },
+    {
+      "id": 8,
+      "brand": "Audio-Technica",
+      "name": "ATH-M50x",
+      "price": "$149",
+      "description": "The Audio-Technica ATH-M50x headphones are popular among audiophiles for their balanced sound and sturdy build."
+    },
+    {
+      "id": 9,
+      "brand": "Beats",
+      "name": "Solo Pro",
+      "price": "$299",
+      "description": "The Beats Solo Pro headphones offer a sleek design, active noise cancellation, and powerful sound."
+    },
+    {
+      "id": 10,
+      "brand": "JBL",
+      "name": "Live 650BTNC",
+      "price": "$199",
+      "description": "The JBL Live 650BTNC headphones feature active noise cancellation and JBL's signature sound quality."
     }
   ],
   "monitors": [
@@ -228,6 +263,41 @@
       "name": "BenQ PD3200U",
       "price": "$699",
       "description": "The BenQ PD3200U monitor is designed for creative professionals, offering 4K resolution and accurate color reproduction."
+    },
+    {
+      "id": 6,
+      "brand": "HP",
+      "name": "HP Pavilion 22cwa",
+      "price": "$119",
+      "description": "The HP Pavilion 22cwa monitor is a budget-friendly option with a Full HD display and sleek design."
+    },
+    {
+      "id": 7,
+      "brand": "Acer",
+      "name": "Acer Predator XB271HU",
+      "price": "$599",
+      "description": "The Acer Predator XB271HU monitor is tailored for gaming enthusiasts, featuring a high refresh rate and G-Sync support."
+    },
+    {
+      "id": 8,
+      "brand": "ViewSonic",
+      "name": "ViewSonic VP3881",
+      "price": "$999",
+      "description": "The ViewSonic VP3881 monitor offers an immersive ultrawide display with accurate color reproduction, perfect for professionals."
+    },
+    {
+      "id": 9,
+      "brand": "Philips",
+      "name": "Philips Momentum 436M6VBPAB",
+      "price": "$799",
+      "description": "The Philips Momentum 436M6VBPAB monitor is a large 4K HDR display with Ambiglow lighting for an immersive viewing experience."
+    },
+    {
+      "id": 10,
+      "brand": "Alienware",
+      "name": "Alienware AW2521HFL",
+      "price": "$399",
+      "description": "The Alienware AW2521HFL monitor is a high-refresh-rate gaming monitor with AlienFX customizable lighting."
     }
   ],
   "watches": [
@@ -265,6 +335,41 @@
       "name": "Audemars Piguet Royal Oak",
       "price": "$23,900",
       "description": "The Audemars Piguet Royal Oak is a legendary luxury watch with an octagonal bezel and integrated bracelet."
+    },
+    {
+      "id": 6,
+      "brand": "Seiko",
+      "name": "Seiko Prospex SRPD21K1",
+      "price": "$450",
+      "description": "The Seiko Prospex SRPD21K1 is a reliable diver's watch with a classic design and automatic movement."
+    },
+    {
+      "id": 7,
+      "brand": "Casio",
+      "name": "Casio G-Shock GW-M5610",
+      "price": "$150",
+      "description": "The Casio G-Shock GW-M5610 is a rugged and durable digital watch known for its shock resistance and solar-powered functionality."
+    },
+    {
+      "id": 8,
+      "brand": "Tissot",
+      "name": "Tissot Le Locle Powermatic 80",
+      "price": "$695",
+      "description": "The Tissot Le Locle Powermatic 80 is an elegant Swiss automatic watch with a power reserve of up to 80 hours."
+    },
+    {
+      "id": 9,
+      "brand": "Citizen",
+      "name": "Citizen Eco-Drive Chandler Field Watch",
+      "price": "$250",
+      "description": "The Citizen Eco-Drive Chandler Field Watch is a solar-powered timepiece with a rugged design suitable for outdoor activities."
+    },
+    {
+      "id": 10,
+      "brand": "Hamilton",
+      "name": "Hamilton Khaki Field Mechanical",
+      "price": "$475",
+      "description": "The Hamilton Khaki Field Mechanical is a military-inspired watch with a simple yet robust design, ideal for everyday wear."
     }
   ]
 }

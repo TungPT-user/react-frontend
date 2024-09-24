@@ -1,5 +1,5 @@
 import CardComponent from "../../CardComponent";
-
+import CardLaptopsComponent from "../../CardLaptopsComonent";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.css";
 const PhoneComponent = () => {
@@ -23,6 +23,24 @@ const PhoneComponent = () => {
         </div>
         <div className="row">
           <CardComponent></CardComponent>
+        </div>
+        <div className="row">
+          <div className="col-4">
+            <h3>Laptop</h3>
+          </div>
+          <div className="col-8 text">
+            <a href="#">Macbook</a>
+            <a href="#">Asus</a>
+            <a href="#">Msi</a>
+            <a href="#">Lenovo</a>
+            <a href="#">HP</a>
+            <a href="#">Acer</a>
+            <a href="#">Dell</a>
+            <a href="#">Huawei</a>
+          </div>
+          <div className="row">
+            <CardLaptopsComponent />
+          </div>
         </div>
       </div>
     </>

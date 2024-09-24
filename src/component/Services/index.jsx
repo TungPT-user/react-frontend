@@ -1,7 +1,7 @@
 import { SERVER_API } from "../../constants/index";
 
-export async function getProducts() {
-  const response = await fetch(SERVER_API + "/phones", {
+async function getData(item) {
+  const response = await fetch(SERVER_API + item, {
     method: "GET",
   });
 
@@ -10,4 +10,24 @@ export async function getProducts() {
   // });
   const data = await response.json();
   return data;
+}
+
+export async function getLaptops() {
+  return getData("/laptops");
+}
+
+export async function getPhones() {
+  return getData("/phones");
+}
+
+export async function getHeadphones() {
+  return getData("/headphones");
+}
+
+export async function getMonitors() {
+  return getData("/monitors");
+}
+
+export async function getWatches() {
+  return getData("/watches");
 }
