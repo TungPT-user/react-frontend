@@ -27,7 +27,7 @@ const HeaderComponent = () => {
               />
             </div>
             <div className="col-md-4 col-sm-12">
-              <div class="d-flex flex-row justify-content-around">
+              <div className="d-flex flex-row justify-content-around">
                 <div className="flex-grow-3">
                   <button className=" btn-facetime ">Gọi mua hàng</button>
                 </div>

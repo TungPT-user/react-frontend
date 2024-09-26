@@ -8,7 +8,7 @@ const HotSaleComponent = () => {
           <h3>HOT SALE CUỐI TUẦN</h3>
         </div>
         <div className="carousel-hotsale">
-          <CarouselHotSale />
+          <CarouselHotSale limit={5} />
         </div>
       </div>
     </>

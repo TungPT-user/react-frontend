@@ -21,9 +21,7 @@ const PhoneComponent = () => {
             <a href="#">TECNO</a>
           </div>
         </div>
-        <div className="row">
-          <CardComponent></CardComponent>
-        </div>
+        <div className="row">{/* <CardComponent></CardComponent> */}</div>
         <div className="row">
           <div className="col-4">
             <h3>Laptop</h3>
