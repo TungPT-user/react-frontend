@@ -1,14 +1,15 @@
 import { createContext, useEffect, useState } from "react";
 import useFetch from "../Hook-data";
-import { getPhones, getLaptops } from "../Services";
+import { getPhones, getLaptops, getHeadphones } from "../Services";
 import Loading from "../UI/UX/Loading";
 // Context
 export const ProductContext = createContext();
 
 // Provider
 export default function ProductContextProvider({ children }) {
-  const [products, setProducts] = useState([]); // laptop
-  const [productsPhone, setProductsPhone] = useState([]); // phone
+  const [laptops, setLaptops] = useState([]); // laptop
+  const [phones, setPhones] = useState([]); // phone
+  const [headPhones, setHeadPhones] = useState([]); // phone
 
   // Thêm sửa xóa
   // Nên extend thằng useState -> useReducer
@@ -21,16 +22,22 @@ export default function ProductContextProvider({ children }) {
     getLaptops,
     []
   );
+  const { isLoading: headPhonesLoading, data: headPhonesData } = useFetch(
+    getHeadphones,
+    []
+  );
 
   useEffect(() => {
     // laptopsData.size > 0
-    setProductsPhone([...phonesData]);
-    setProducts([...laptopsData]);
-  }, [phonesData, laptopsData]);
+    setPhones([...phonesData]);
+    setLaptops([...laptopsData]);
+    setHeadPhones([...headPhonesData]);
+  }, [phonesData, laptopsData, headPhonesData]);
 
   const value = {
-    products: products,
-    phones: productsPhone,
+    laptops: laptops,
+    phones: phones,
+    headPhones: headPhones,
   };
 
   // List products

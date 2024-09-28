@@ -175,6 +175,7 @@
       "id": 3,
       "brand": "Bose",
       "name": "QuietComfort 35 II",
+      "img1": "/image/WH-1000XM4.jpg",
       "price": "$299",
       "description": "The Bose QuietComfort 35 II headphones provide exceptional noise cancellation and comfort for long listening sessions."
     },
@@ -182,6 +183,7 @@
       "id": 4,
       "brand": "Sennheiser",
       "name": "Momentum 3 Wireless",
+      "img1": "/image/WH-1000XM4.jpg",
       "price": "$399",
       "description": "The Sennheiser Momentum 3 Wireless headphones deliver premium sound quality and luxurious design."
     },
@@ -189,43 +191,9 @@
       "id": 5,
       "brand": "Jabra",
       "name": "Elite 85h",
+      "img1": "/image/WH-1000XM4.jpg",
       "price": "$249",
       "description": "The Jabra Elite 85h headphones offer great sound quality, long battery life, and excellent noise cancellation."
-    },
-    {
-      "id": 6,
-      "brand": "Beyerdynamic",
-      "name": "DT 990 Pro",
-      "price": "$179",
-      "description": "The Beyerdynamic DT 990 Pro headphones are known for their open-back design and detailed sound reproduction."
-    },
-    {
-      "id": 7,
-      "brand": "AKG",
-      "name": "K371",
-      "price": "$149",
-      "description": "The AKG K371 headphones provide accurate sound reproduction and comfortable fit for extended listening sessions."
-    },
-    {
-      "id": 8,
-      "brand": "Audio-Technica",
-      "name": "ATH-M50x",
-      "price": "$149",
-      "description": "The Audio-Technica ATH-M50x headphones are popular among audiophiles for their balanced sound and sturdy build."
-    },
-    {
-      "id": 9,
-      "brand": "Beats",
-      "name": "Solo Pro",
-      "price": "$299",
-      "description": "The Beats Solo Pro headphones offer a sleek design, active noise cancellation, and powerful sound."
-    },
-    {
-      "id": 10,
-      "brand": "JBL",
-      "name": "Live 650BTNC",
-      "price": "$199",
-      "description": "The JBL Live 650BTNC headphones feature active noise cancellation and JBL's signature sound quality."
     }
   ],
   "monitors": [

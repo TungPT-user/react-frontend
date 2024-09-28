@@ -1,40 +1,26 @@
-.product-list {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* Canh giữa sản phẩm */
-}
-
 .product-card {
+  max-width: 12em;
   background-color: #fff;
+  padding: 1em;
   box-shadow: 0 5px 5px #e1e1e1;
   font-family: Arial, Helvetica, sans-serif;
-  width: 200px;
-  margin: 10px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
+  margin-left: 20px;
 }
-
 .product-card img {
-  width: 100%;
-  height: auto;
+  height: 205px;
+  max-width: 100%;
+  width: 180px;
 }
-
 .product-card h4 {
   font-size: 1.3em;
   margin: 0.5em 0;
 }
-
-.product-info {
+.product-card div {
+  font-size: 1.2em;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .product-card button {
   background-color: #000;
   color: #fff;
@@ -44,17 +30,14 @@
   height: 25px;
   font-size: 1em;
 }
-
 .product-card:hover {
   background-color: lightslategray;
   color: #fff;
 }
-
 .product-card:hover button {
   color: #000;
   background-color: #fff;
 }
-
 @media screen and (max-width: 576px) {
   .product-card {
     font-size: 0.9em;
